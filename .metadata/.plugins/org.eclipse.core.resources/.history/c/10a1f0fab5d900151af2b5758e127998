@@ -1,0 +1,5 @@
+package br.univel.rmi;
+
+public class client {
+
+}

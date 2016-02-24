@@ -1,0 +1,33 @@
+package br.univel.server;
+
+import java.rmi.RemoteException;
+
+import br.univel.common.ServicoRMI;
+
+public class Server implements ServicoRMI {
+
+	@Override
+	public double somar(double a, double b) throws RemoteException {
+		// TODO Auto-generated method stub
+		return a+b;
+	}
+
+	@Override
+	public double subtrair(double a, double b) throws RemoteException {
+		// TODO Auto-generated method stub
+		return a - b;
+	}
+
+	@Override
+	public double multiplicar(double a, double b) throws RemoteException {
+		// TODO Auto-generated method stub
+		return a * b;
+	}
+
+	@Override
+	public double dividir(double a, double b) throws RemoteException {
+		// TODO Auto-generated method stub
+		return a/b;
+	}
+
+}

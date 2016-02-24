@@ -1,0 +1,14 @@
+package br.univel.common;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface ServicoRMI extends Remote {
+public static final String NOME = "SERVICO_RMI";
+	
+	public float somar(float a, float b) throws RemoteException;
+	public float diminuir(float a, float b) throws RemoteException;
+	public float multiplicar(float a, float b) throws RemoteException;
+	public float dividir(float a, float b) throws RemoteException;
+
+}

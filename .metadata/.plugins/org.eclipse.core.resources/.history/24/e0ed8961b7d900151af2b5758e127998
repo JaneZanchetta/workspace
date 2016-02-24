@@ -1,0 +1,9 @@
+package br.univel.common;
+
+public interface ServicoRMI extends Remote {
+public static final String NOME = "SERVICO_RMI";
+	
+	public String greet(String nome) throws RemoteException;
+	
+
+}
